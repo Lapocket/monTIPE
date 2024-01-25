@@ -30,7 +30,10 @@ Le choix de 5 mots-clés incite le candidat à **isoler les éléments les plus 
 
 ## Bibliographie commentée (max 650 mots)
 
-
+Le monopoly est un jeu dont le but est de mettre ces adversaires dans une situation de faillite. Pour se faire, il faut acheter des cases sur lequels les adervaires devront payer une impot lorsqu'ils tomberont dessus. Ainsi, il sera interressant donc de regarder la rentabilté des cases et le pourcentage de chance de tomber sur celle-ci. A l'aide des documents 1 et 2, on comprendra comment obtenir ces valeurs, les difficultés et pouvoir mettre en place une stratégie gagnante. Ainsi dans ce projet, mon objectif sera de créer une situation où les joueurs ont autant de chance de gagné. Pour simplifier le problème je me restreindrai à un jeu à 2 joueurs. A l'aide des données des documents 1 et 2, on remarquera que certaines cases sont plus interressantes à prendre du fait de leur plus au haute chance de tomber dessus. Alors, il sera donc interressant s'interresser de savoir pourquoi certaines cases ont une plus au haute chance de tomber dessus et comment modifier le jeu pour faire disparaitre cette avantages. 
+Dans un premier temps, il nous faudra créer un monopoly pour pouvoir faire des tests dessus. J'utiliserai le langage informatique C pour le modiliser. Des simplifications seront effectués notamment la supressions des effets des cartes chances et de certaines cases sinon le jeu sans modification respectera les règles originianles du jeu de 1935 (date de sortie). Ainsi à partir du code de base il sera plus simple de pouvoir modifier les différentes aspects du jeu pour trouver une situation où les joueurs ont autant de chance de gagné.
+Ensuite, je m'interresserai donc à deux modification principal : la remise du joueur sur la case initiale où son pion se trouve lorsqu'il va en prison et la modification des valeurs marchandes des cases plus avantageuses. C'est modification pourront ammener à effectuer d'autres changements au sein du code du jeu si necessaire.
+Enfin, des tests seront effectués sur les codes du jeu modifier pour savoir si ceux-ci nous renvoie bien dans une situation où les joueurs ont autant de chance de gagné. Sinon le cas échéant de comprendre pourquoi cela n'a pas permis de ce rammener à un tel événement.
 
 ## Problématique retenue (max 50 mots)
 
@@ -47,15 +50,5 @@ Il s'agit de partir de la stratégie gagnate du jeu pour apporter des modificati
 ## Références bibliographiques (2 à 10 références)
 
 1. https://github.com/detobel36/Monopoly // rapport sur le monopoly et les chaine de markov
-2. https://www.apprendre-en-ligne.net/blog/docu/TropMonopoly.pdf // articles vision mathématique du monopoly
-3. https://prezi.com/gomwtzs1ws-b/le-monopoly-est-il-un-jeu-equiprobable/ // équiprobabilité du monopoly
-4. https://www.youtube.com/watch?v=KHPbaIFGZTE&ab_channel=CentreHenriLebesgue // comment gagner
-5. https://uu.diva-portal.org/smash/get/diva2:1471765/FULLTEXT01.pdf // doc anglais résumant le tout
-6. 
-7. https://freakonometrics.github.io/documents/teaching/Markov.pdf // cours sur les chaines de markov
-8. https://hgangloff.wp.imtbs-tsp.eu/files/2020/12/chaines_de_Markov_cachees_MAT4501_2020_2021.pdf // complément sur les chaines de markov
-9. 
-10. https://cahier-de-prepa.fr/mpsi2-llg/download?id=705 // aide pour le TIPE
-11. https://perso.eleves.ens-rennes.fr/~flemonni/documents/index.html // piste à voir
-12. 
+2. https://uu.diva-portal.org/smash/get/diva2:1471765/FULLTEXT01.pdf // doc anglais résumant le tout
 
